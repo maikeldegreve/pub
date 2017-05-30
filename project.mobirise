@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "list work.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -483,10 +483,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/muur-en-bal-1-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/muur-en-bal-1-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/muur-en-bal2-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/muur-en-bal2-2000x1125.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Beautiful",
@@ -516,7 +516,7 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
