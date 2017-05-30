@@ -474,7 +474,7 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #000000!important;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -764,7 +764,7 @@ h6,
 }
 #menu-g .link[aria-expanded="true"],
 #menu-g .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #000000!important;
 }
 #menu-g.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -787,7 +787,6 @@ h6,
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
 }
-
 
 
 #menu-l .hide-buttons .nav-btn {
@@ -846,7 +845,7 @@ h6,
 }
 #menu-l .link[aria-expanded="true"],
 #menu-l .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #000000!important;
 }
 #menu-l.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
@@ -858,14 +857,26 @@ h6,
 #menu-l .close-icon::after {
   background-color: #000000;
 }
-#contacts4-n P {
-  font-family: 'Slabo 27px', serif;
-  color: #000000;
+#contacts5-r p,
+#contacts5-r .list-group-text,
+#contacts5-r .form-control-label {
+  color: #000;
 }
-#contacts4-n .btn {
-  font-family: 'Slabo 27px', serif;
-  font-size: 13px;
+#contacts5-r strong,
+#contacts5-r h4 {
+  color: #7e9b9f;
 }
-#contacts4-n SPAN {
-  color: #000000;
+#contacts5-r form .form-control {
+  border-color: rgba(0, 0, 0, 0.2);
+  color: #565656;
+}
+#contacts5-r .mbr-footer-content li {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+#contacts5-r .mbr-company .list-group-text::after {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+#contacts5-r .btn {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
