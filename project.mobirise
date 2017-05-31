@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 35,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@"
   },
@@ -147,7 +147,9 @@
               "text-align": "left"
             },
             ".mbr-section-title P": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
             }
           },
           "_anchor": "header1-1",
@@ -178,7 +180,7 @@
     },
     "video.html": {
       "settings": {
-        "title": "Maikel De Greve videos",
+        "title": "Maikel De Greve video",
         "meta_descr": "Maikel De Greve"
       },
       "components": [
@@ -313,7 +315,7 @@
     },
     "list work.html": {
       "settings": {
-        "title": "Website Builder Title",
+        "title": "Maikel De Greve work list",
         "meta_descr": "Website Builder Description"
       },
       "components": [
@@ -518,7 +520,7 @@
     },
     "all work.html": {
       "settings": {
-        "title": "Web Builder Title",
+        "title": "Maikel De Greve work all",
         "meta_descr": "Maikel De Greve"
       },
       "components": [
@@ -768,7 +770,7 @@
     },
     "contact.html": {
       "settings": {
-        "title": "Web Page Generator Title",
+        "title": "Maikel De Greve contact",
         "meta_descr": "Web Page Generator Description"
       },
       "components": [
