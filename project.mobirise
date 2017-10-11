@@ -12,9 +12,9 @@
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
+        "titleFont": "Ubuntu",
+        "subtitleFont": "Oswald",
+        "textFont": "Lato",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false,
@@ -23,7 +23,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 18,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.3.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -99,6 +99,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#040404",
             "fontSize": 0.75,
             "fontName": {
@@ -107,13 +113,7 @@
               "css": "'Slabo 27px', serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -153,44 +153,27 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
             "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/index-2000x1125.jpg",
-            "bgColor": "#ffffff",
+            "parallax": false,
             "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "title": "<p><span style=\"font-weight: normal;\">Maikel De Greve</span></p>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
         }
       ]
     },
@@ -261,6 +244,12 @@
           "_name": "menu",
           "_anchor": "menu-3",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#040404",
             "fontSize": 0.75,
             "fontName": {
@@ -269,13 +258,7 @@
               "css": "'Slabo 27px', serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -301,8 +284,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": false,
+            "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": false,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -319,10 +305,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": false
+            ]
           },
           "_anchor": "slider-7",
           "articleLayout": false
@@ -396,6 +379,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#040404",
             "fontSize": 0.75,
             "fontName": {
@@ -404,13 +393,7 @@
               "css": "'Slabo 27px', serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -436,13 +419,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -453,8 +436,11 @@
           "_name": "slider",
           "_params": {
             "autoplay": false,
+            "fullScreen": false,
             "paddingTop": "2",
             "paddingBottom": "4",
+            "showBullets": false,
+            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -597,10 +583,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "fullScreen": false,
-            "bgColor": "#fff",
-            "showBullets": false
+            ]
           },
           "_anchor": "slider-f",
           "articleLayout": false
@@ -674,6 +657,12 @@
           "_name": "menu",
           "_anchor": "menu-9",
           "_params": {
+            "logo": false,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#040404",
             "fontSize": 0.75,
             "fontName": {
@@ -682,13 +671,7 @@
               "css": "'Slabo 27px', serif"
             },
             "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -714,8 +697,15 @@
           ],
           "_name": "gallery2",
           "_params": {
+            "showBullets": false,
+            "fullWidth": true,
+            "spacing": "6",
             "paddingTop": "1",
             "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -827,14 +817,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "6",
-            "showText": false,
-            "filter": false,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": true,
-            "showBullets": false
+            ]
           },
           "_anchor": "gallery2-h",
           "articleLayout": false,
