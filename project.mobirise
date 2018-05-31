@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "site/en",
-    "currentPage": "fotopolymeer.html",
+    "currentPage": "zweedsegymnastiek.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5878,7 +5878,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/werk-groot-scherm-18-1920x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -5929,7 +5929,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/werk-groot-scherm-19-1920x1080.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
